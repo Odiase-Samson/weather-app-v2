@@ -1,0 +1,23 @@
+{
+    "name": "Cloud9ine",
+    "short_name": "Cloud9",
+    "start_url": "https://weather-app-cloud9.web.app" ,
+    "background_color": "#3498DB",
+    "theme_color": "#2F3BA2",
+    "icons": [
+                {
+                    "src": "icons/icon1.png",
+                    "sizes": "180x180",
+                    "type": "image/png"
+                }
+
+    ],
+    "orientation": "portrait-primary",
+    "display": "standalone",
+    "dir": "ltr",
+    "lang": "en-US",
+    "description": "Cloud 9 App ",
+    "serviceworker": {
+        "src": "serviceworker.js"
+    }
+}
